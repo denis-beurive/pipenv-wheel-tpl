@@ -1,0 +1,15 @@
+-i https://pypi.org/simple
+-e .
+args==0.1.0
+astroid==2.3.3
+clint==0.5.1
+colorama==0.4.1 ; sys_platform == 'win32'
+isort==4.3.21
+lazy-object-proxy==1.4.3
+mccabe==0.6.1
+pylint==2.4.4
+six==1.13.0
+typed-ast==1.4.0 ; implementation_name == 'cpython' and python_version < '3.8'
+wheel==0.33.6
+wrapt==1.11.2
+xmlrunner==1.7.7
